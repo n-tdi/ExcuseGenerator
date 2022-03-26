@@ -9,6 +9,7 @@ public class ExcuseGenerator {
         System.out.println("Enter the number of excuses to generate: ");
         int numberOfExcuses = scanner.nextInt();
         System.out.println("Generating " + numberOfExcuses + " excuses: \n");
+
         Generator generator = new Generator(numberOfExcuses);
         ArrayList<String> excuses = generator.generateExcuse();
         for (String excuse : excuses) {
