@@ -19,4 +19,5 @@ You can go about finding where to add them in Generator.java,
 <ul>
     <li>Make a api</li>
     <li>Add more excuses</li>
+    <li>Make responses into json file</li>
 </ul>
